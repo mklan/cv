@@ -1,1 +1,1 @@
-# [Curriculum Vitae](https://mklan.github.io/cv.pdf)
+# [Curriculum Vitae](https://github.com/mklan/cv/blob/master/cv.pdf)
