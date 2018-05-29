@@ -10,11 +10,11 @@ setup_git() {
 commit_pdf() {
   git checkout master
   git add . *.pdf
-  git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
+  git commit --message "Travis build: $TRAVIS_BUILD_NUMBER [ci skip]"
 }
 
 upload_files() {
-  git remote add origin https://${GH_TOKEN}@github.com/mklan/cv.git > /dev/null 2>&1
+  git remote add origin https://${GH_TOKEN}@github.com/mklan/cv.git
   git push --quiet --set-upstream origin master
 }
 
