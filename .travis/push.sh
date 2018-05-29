@@ -14,8 +14,8 @@ commit_pdf() {
 }
 
 upload_files() {
-  git remote add origin https://${GH_TOKEN}@github.com/mklan/cv.git
-  git push --quiet --set-upstream origin master
+  git remote add token_origin https://${GH_TOKEN}@github.com/mklan/cv.git
+  git push --quiet --set-upstream token_origin master
 }
 
 setup_git
