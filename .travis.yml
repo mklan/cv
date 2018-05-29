@@ -1,4 +1,4 @@
-language: node_js
+#language: node_js
 
 addons:
   apt:
@@ -9,6 +9,6 @@ addons:
     - texlive-latex-extra
 
 script:
-  - npm run build
+  - pdflatex cv.tex
 #after_script:
 #  - docker-compose kill
