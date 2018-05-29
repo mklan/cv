@@ -1,6 +1,14 @@
 # [Curriculum Vitae](https://github.com/mklan/cv/blob/master/cv.pdf)
 
+Matthias Klan's CV
+
+The tex file is provided, so feel free to fork this repo and use it as a template for your CV, if you like it.
+
+[Download](https://github.com/mklan/cv/raw/master/cv.pdf)
+
 ## Automated pdf build
+
+Using the automated build setup, you will be able to edit the tex file directly using github's web-interface and the changes will be built to an updated pdf file.
 
 1. Connect travis to your fork 
 2. Generate a new [personal access token](https://github.com/settings/tokens) including the `public_repo` scope
