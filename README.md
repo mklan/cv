@@ -6,7 +6,7 @@ The tex file is provided, so feel free to fork this repo and use it as a templat
 
 [Download](https://github.com/mklan/cv/raw/master/cv.pdf)
 
-## Automated pdf build
+## Automated pdf build usign travis-ci
 
 Using the automated build setup, you will be able to edit the tex file directly using github's web-interface and the changes will be built to an updated pdf file.
 
@@ -15,3 +15,5 @@ Using the automated build setup, you will be able to edit the tex file directly 
 3. Add the token as an environment variable named `GH_TOKEN` at the travis settings page
 
 The pdf will now be built on every push and updated in the repos master branch
+
+> Hint: you can add `[ci skip]` to a commit message, to skip the build process
