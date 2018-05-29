@@ -8,5 +8,6 @@ addons:
 
 script:
   - pdflatex cv.tex
+  
 after_success:
-  - .travis/push.sh
+  - chmod +x .travis/push.sh
