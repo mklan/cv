@@ -7,9 +7,10 @@ setup_git() {
   git config --global user.name "Travis CI"
 }
 
-commit_pdf() {
+commit() {
+  git fetch
   git checkout master
-  git add *.pdf
+  git add *.pdf *.png
   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER [ci skip]"
 }
 
@@ -19,5 +20,5 @@ upload_files() {
 }
 
 setup_git
-commit_pdf
+commit
 upload_files
