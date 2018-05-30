@@ -1,4 +1,8 @@
 lenguage: c
+addons:
+  apt:
+    packages:
+    - ghostscript
 
 script:
   - gs -sDEVICE=png16m -r300 -sOutputFile=cv.png cv.pdf
