@@ -12,7 +12,7 @@ before_script:
  
 script:
   - pdflatex cv.tex
-  - gs -sDEVICE=png16m -dSAFER -dBATCH -dNOPAUSE -r300 -sOutputFile=cv.png cv.pdf
+  - gs -sDEVICE=png16m -dSAFER -dBATCH -dNOPAUSE -r600 -sOutputFile=cv.png cv.pdf
   
 after_success:
   - .travis/push.sh
