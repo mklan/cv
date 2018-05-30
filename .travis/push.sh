@@ -7,7 +7,11 @@ setup_git() {
   git config --global user.name "Travis CI"
 }
 
-commit_pdf() {
+convert_pdf_png() {
+  convert -density 300 cv.pdf -quality 100 -flatten cv.png
+}
+
+commit() {
   git checkout master
   git add *.pdf *.png
   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER [ci skip]"
@@ -19,5 +23,6 @@ upload_files() {
 }
 
 setup_git
-commit_pdf
+convert_pdf_png
+commit
 upload_files
