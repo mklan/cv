@@ -6,6 +6,7 @@ addons:
     - texlive-fonts-recommended
     - texlive-fonts-extra
     - texlive-latex-extra
+    - ghostscript
     - imagemagick
     
 before_script:
