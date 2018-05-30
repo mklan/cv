@@ -1,12 +1,9 @@
-# Curriculum Vitae
-
-![Alt text](cv.png?raw=true "Curriculum Vitae of Matthias Klan")
-
+![Curriculum Vitae of Matthias Klan](cv.png?raw=true)
 ---
 
-The tex file is provided, so feel free to fork this repo and use it as a template for your CV, if you like it.
+[Download PDF](https://github.com/mklan/cv/raw/master/cv.pdf)
 
-[Download](https://github.com/mklan/cv/raw/master/cv.pdf)
+The tex file is provided, so feel free to fork this repo and use it as a template for your CV, if you like it.
 
 ## Automated pdf build using travis-ci
 
