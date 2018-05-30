@@ -1,6 +1,6 @@
 # [Curriculum Vitae](https://github.com/mklan/cv/blob/master/cv.pdf)
 
-Matthias Klan's CV
+![Alt text](cv.png?raw=true "Curriculum Vitae of Matthias Klan")
 
 The tex file is provided, so feel free to fork this repo and use it as a template for your CV, if you like it.
 
