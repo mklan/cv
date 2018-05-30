@@ -1,7 +1,9 @@
 os: osx
+language: c
 before_script:
  - chmod +x .travis/push.sh
- - brew install imagemagick
+ - brew install ghostscript
+ - brew install ImageMagick --with-ghostscript
  
 script:
   - convert -density 300 cv.pdf -quality 100 -flatten cv.png
