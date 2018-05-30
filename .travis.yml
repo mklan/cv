@@ -1,24 +1,4 @@
-os: osx
-language: c
+lenguage: c
 
-cache:
-  ccache: true
-  directories:
-    - $HOME/Library/Caches/Homebrew
-    
-before_install: 
-  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew update        ; fi
-  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install ccache; fi    
-  
-before_script:
- - chmod +x .travis/push.sh
- - brew cask install mactex
- - brew install ghostscript
- - brew install ImageMagick --with-ghostscript
- 
 script:
-  - pdflatex cv.tex
-  - convert -density 300 cv.pdf -quality 100 -flatten cv.png
-  
-after_success:
-  - .travis/push.sh
+  - gs -sDEVICE=png16m -r300 -sOutputFile=cv.png cv.pdf
