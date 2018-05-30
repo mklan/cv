@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/mklan/cv.svg?branch=master)](https://travis-ci.com/mklan/cv)
+
 ![Curriculum Vitae of Matthias Klan](cv.png?raw=true)
 ---
 
