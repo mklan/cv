@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.com/mklan/cv.svg?branch=master)](https://travis-ci.com/mklan/cv)
-
 ![Curriculum Vitae of Matthias Klan](cv.png?raw=true)
 ---
+
+[![Build Status](https://travis-ci.com/mklan/cv.svg?branch=master)](https://travis-ci.com/mklan/cv)
 
 [Download PDF](https://github.com/mklan/cv/raw/master/cv.pdf)
 
