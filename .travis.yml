@@ -14,5 +14,4 @@ script:
   - pdflatex cv.tex
   
 after_success:
-  - convert -density 300 cv.pdf -quality 100 cv.png
   - .travis/push.sh
