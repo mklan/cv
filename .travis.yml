@@ -1,8 +1,18 @@
-lenguage: c
 addons:
   apt:
     packages:
+    - texlive-latex-base
+    - texlive-fonts-recommended
+    - texlive-fonts-extra
+    - texlive-latex-extra
     - ghostscript
-
+    
+before_script:
+ - chmod +x .travis/push.sh
+ 
 script:
-  - gs -sDEVICE=png16m -r300 -sOutputFile=cv.png cv.pdf
+  - pdflatex cv.tex
+  - gs -sDEVICE=png16m -dSAFER -dBATCH -dNOPAUSE -r300 -sOutputFile=cv.png cv.pdf
+  
+after_success:
+  - .travis/push.sh
