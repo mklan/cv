@@ -12,7 +12,7 @@ before_script:
  
 script:
   - pdflatex cv.tex
-  - convert -density 300 cv.pdf -quality 100 cv.png
   
 after_success:
+  - convert -density 300 cv.pdf -quality 100 cv.png
   - .travis/push.sh
