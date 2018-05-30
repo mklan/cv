@@ -1,12 +1,14 @@
-# [Curriculum Vitae](https://github.com/mklan/cv/blob/master/cv.pdf)
+# Curriculum Vitae
 
 ![Alt text](cv.png?raw=true "Curriculum Vitae of Matthias Klan")
+
+---
 
 The tex file is provided, so feel free to fork this repo and use it as a template for your CV, if you like it.
 
 [Download](https://github.com/mklan/cv/raw/master/cv.pdf)
 
-## Automated pdf build usign travis-ci
+## Automated pdf build using travis-ci
 
 Using the automated build setup, you will be able to edit the tex file directly using github's web-interface and the changes will be built to an updated pdf file.
 
