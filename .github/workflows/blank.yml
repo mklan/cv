@@ -39,7 +39,6 @@ jobs:
         with:
           branch: latest
           branch_mode: create
-          pull: '--rebase'
           message: 'rendered new version'
           add: '*.pdf *.png'
 
