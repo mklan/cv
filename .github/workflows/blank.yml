@@ -33,6 +33,16 @@ jobs:
         
       - name: render cv.png
         run: gs -sDEVICE=png16m -dSAFER -dBATCH -dNOPAUSE -r600 -sOutputFile=cv.png cv.pdf
+        
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          branch: build
+          branch_mode: create
+          author_name: Your Name
+          author_email: mail@example.com
+          message: 'Your commit message'
+          add: '*.pdf *.png'
 
 
 
