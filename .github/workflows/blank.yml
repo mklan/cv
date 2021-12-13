@@ -37,11 +37,9 @@ jobs:
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
         with:
-          branch: build
+          branch: latest
           branch_mode: create
-          author_name: Your Name
-          author_email: mail@example.com
-          message: 'Your commit message'
+          message: 'rendered new version'
           add: '*.pdf *.png'
 
 
