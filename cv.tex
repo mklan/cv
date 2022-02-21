@@ -1,10 +1,12 @@
-\documentclass[10pt]{article} %Sets the default text size to 11pt and class to article.
+\documentclass[9pt]{extarticle}
+
+% \documentclass[10pt]{article} %Sets the default text size to 11pt and class to article.
 %------------------------Dimensions--------------------------------------------
 \pagenumbering{gobble}% Remove page numbers (and reset to 1)
 \topmargin=0.0in %length of margin at the top of the page (1 inch added by default)
 \oddsidemargin=0.0in %length of margin on sides for odd pages
 \evensidemargin=0in %length of margin on sides for even pages
-\textwidth=6.5in %How wide you want your text to be
+\textwidth=6.9in %How wide you want your text to be
 \marginparwidth=0.5in
 \headheight=0pt %1in margins at top and bottom (1 inch is added to this value by default)
 \headsep=0pt %Increase to increase white space in between headers and the top of the page
@@ -21,74 +23,99 @@
 \begin{document}
 
 \centerline{{\LARGE \bf Dipl. Ing. Matthias Klan}}
-\centerline{\href{mailto:matthias.klan@gmail.com}{matthias.klan@gmail.com} \raisebox{0.25ex}{\tiny$\bullet$} \href{https://klanm.at}{klanm.at}}
+\centerline{\small \href{https://klanm.at}{klanm.at} \raisebox{0.25ex}{\tiny$\bullet$}  \href{mklan@pm.me}{mklan@pm.me}}
 
 \noindent %Prevents the following text from being indented
 \\\\
 {\Large \bf Professional Experience}\\
-\line(1,0){470}\\
-\\\\
+\line(1,0){500}\\
+\\
 \noindent
-{\bf Web-Engineer}, \textit{employee at Anyline GmbH}  \hfill \textit{ From November 2018 } \\ 
-Designing / developing services and tools for ml ocr workflows   \\
-Responsible for handling many million image uploads/day   \\
-Responsible for the Core-backend architecture   \\
-Responsible for the JS-Platform-Client and platform releases   \\\\
+{\bf Web-Engineer}, \textit{employee at Anyline GmbH}  \hfill Vienna, Austria 
+\begin{itemize}
+\setlength\itemsep{0.05em}
+\item Responsible for storing/structuring/retrieving a steady growing db of  \hfill \textit{From November 2018} \\ 
+millions new images/day which are then piped through ml ocr processes.
+\item Responsible for the core-backend design and implementation (NestJS)
+\item Responsible for the JS-SDK development/releases (Typescript, wasm) \\
+\end{itemize}
 
 \noindent
+{\bf Software-Engineer}, \textit{co-founder of Apollon OG}  \hfill Vienna, Austria
+\begin{itemize}
+\setlength\itemsep{0.05em}
+\item Architect/dev of MedTech streamlining oncology processes in hospitals \hfill \textit{June 2019 -- August 2020} \\
+(GCP, Kubernetes, Node.js, GraphQL, React) \\
+\end{itemize}
+
 \noindent
-{\bf Software-Engineer}, \textit{co-founder of Apollon OG}  \hfill \textit{ June 2019 -- August 2020 } \\ 
-MedTech to streamline oncology processes  \\\\
+{\bf DevOps/Software-Engineer}, \textit{employee at EODC GmbH}  \hfill Vienna, Austria
+\begin{itemize}
+\setlength\itemsep{0.05em}
+    \item Deployment of services processing ESA's satelite data (Docker, OpenShift) \hfill \textit{May -- November 2018}
+    \item Bootstrapped a platform to market and consume said services in a centralized way \\
+    (React, Node.js, GraphQL, Postgres, Stripe, keycloak) \\
+\end{itemize}
+
 \noindent
-\noindent
-{\bf DevOps/Software-Engineer}, \textit{employee at EODC GmbH}  \hfill \textit{ May -- November 2018 } \\ 
-Deploying / developing earth-observation services\\\\
-\noindent
-\noindent
-{\bf App-/Web-Developer}, \textit{employee at ViewAR GmbH}  \hfill \textit{ November 2016 -- May 2018 } \\ 
-AR and VR apps driven by the ViewAR SDK using React\\\\
-\noindent
+{\bf Web-Developer}, \textit{employee at ViewAR GmbH}  \hfill Vienna, Austria
+\begin{itemize}
+\setlength\itemsep{0.05em}
+    \item introduced React and refactored the old Angular codebase into \hfill \textit{November 2016 -- May 2018} \\
+    a component based template engine
+    \item developed a \href{https://www.youtube.com/watch?v=0j-v-j9xEUQ}{p2p-framework} for mirroring 3D models + camera feed \\
+    (WebGL, WebRTC, ViewAR SDK)
+    \item developed an \href{https://www.youtube.com/watch?v=quE-erJ4PmU&t=113s}{editor} for 3D app assets (React, WebGL) \\
+\end{itemize}
 %\noindent
 %{\bf Unity-/Web-Developer}, \textit{freelancer at Sabotage Films}  \hfill \textit{ September -- November 2015 } \\ 
 %Augmented Reality in Unity, Virtual Reality using three.js\\\\
 %\noindent
-{\bf Web-Developer}, \textit{freelancer at Immowire UG}  \hfill \textit{ July 2014 -- October 2015 } \\ 
-Social-Network for real estate using Angular, Node and OrientDB\\\\
+
 \noindent
+{\bf Web-Developer}, \textit{freelancer at \href{https://youtu.be/cs-IyI_erZo?t=16}{Immowire UG}}  \hfill Remote from Vienna, Austria
+\begin{itemize}
+    \setlength\itemsep{0.05em}
+\item developed core-features for a social real estate  \href{https://youtu.be/cs-IyI_erZo?t=16}{platform} \hfill \textit{July 2014 -- October 2015} \\ 
+(Angular, WebSocket, Node.js/Sails, OrientDB)\\
+\end{itemize}
+
 %{\bf Java Tutor}, \textit{student assistent at THM}  \hfill \textit{ October 2013 -- February 2014 } \\ 
 %Teaching development\\\\
 %\noindent
-{\bf Web-Developer}, \textit{internship at Shopgate GmbH}  \hfill \textit{ March -- September 2013 } \\ 
-Backend-Development for Mobile-Commerce using CakePHP\\\\
+% {\bf Web-Developer}, \textit{internship at Shopgate GmbH}  \hfill Butzbach, Germany \\ 
+% Backend-Development for Mobile-Commerce using CakePHP \hfill \textit{ March -- September 2013 }  
+
 \noindent
 %{\bf Web-Developer}, \textit{student worker at kaufhaus.com}  \hfill \textit{ October 2012 -- February 2013 } \\ 
 %Backend-Development for an online marketplace using Zend 2\\\\
 \noindent %Prevents the following text from being indented
-\\\\
+\\
 {\Large \bf Education}\\
-\line(1,0){470}\\
-\\\\
+\line(1,0){500}\\
+\\
 \noindent
 {\bf Master of Science - Media Informatics} \hfill \textit{June 2018} \\ 
-\textit{Universität Wien (Thesis: Object Tracking in the Cloud)}\\\\
+\textit{Universität Wien (Thesis: Rnd of a cloud video object tracker [Vue.js, Docker, RabbitMQ, OpenCV])}\\\\
 \noindent
 {\bf Bachelor of Science - Media Informatics} \hfill \textit{October 2013} \\
-\textit{Technische Hochschule Mittelhessen (Thesis: Webapp using backbone.js)}\\
+\textit{Technische Hochschule Mittelhessen (Thesis: Rnd of a Shopfront-Editor [backbone.js])}\\
 \\
 %\noindent
 \\\\
 {\Large \bf Skills}\\
-\line(1,0){470}\\
-\\\\
+\line(1,0){500}\\
+\\
 \noindent
-- Responsive Single Page Applications (\textit{React, Electron, WebRTC, WebSockets}) \\
-- Distributed WebServices (\textit{nodeJS, AMQP, Redis, SQL/NoSQL, Data-Warehouse, Buckets}) \\
-- API Design / Security / Provisioning (\textit{GraphQL, REST, oAuth2, apigee, openAPI}) \\
-- Deployment (\textit{Docker/Kubernetes, CI/CD, Serverless}) \\
-- Testing (\textit{Jest, Puppeteer}) \\
-- Other (\textit{WebGL, cli-apps, data-migration, 3d-modelling, UI/UX design, teaching, mentoring, planning}) \\\\
+{\small
+{\bf Responsive Web-Apps } (\textit{Typescript, React, Vue, Svelte, Electron, WebRTC, WebGL}) \\
+{\bf Distributed Web-Services } (\textit{Node.js, NestJS, AMQP, CQRS, Redis, SQL/NoSQL, data warehouse}) \\
+{\bf API Design }(\textit{REST, GraphQL, openAPI, oAuth2}) \\
+{\bf Testing }(\textit{Jest, Puppeteer, device farms}) \\
+{\bf Deployment }(\textit{GCP, AWS, Docker/Kubernetes, CI/CD, serverless, edge computing}) \\
+{\bf Misc }(\textit{cli-apps, data migration, UI/UX design, mentoring}) \\\\
 \noindent
-{\bf Advocate of:} Functional Programming, Reactive Programming, QA / Testautomation, Microservice Architecture, Event sourcing, Continuous Integration, Continuous Delivery, Documentation \\\\\
-
+{\bf Advocate of:} Functional/Reactive Programming, QA/Testautomation, Microservice Architecture, event sourcing, Frequent releasing, Auto Documentation 
+}
 
 \end{document}
