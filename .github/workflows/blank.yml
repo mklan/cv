@@ -37,9 +37,9 @@ jobs:
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
         with:
-          branch: latest
+          branch: master
           branch_mode: create
-          message: 'rendered new version'
+          message: 'rendered new version [skip ci]'
           add: '*.pdf *.png'
 
 
