@@ -1,4 +1,4 @@
-![Curriculum Vitae of Matthias Klan](https://github.com/mklan/cv/raw/master/cv.png?raw=true)
+![Curriculum Vitae of Matthias Klan](https://github.com/mklan/cv/blob/master/cv.png?raw=true)
 ---
 
 [![CI](https://github.com/mklan/cv/actions/workflows/blank.yml/badge.svg)](https://github.com/mklan/cv/actions/workflows/blank.yml)
