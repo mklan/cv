@@ -7,6 +7,9 @@
 
 You can fork this repo and use it as a framework for your personal CV.
 
-## Automated builds using github-actions
+## Usage
 
-Using github actions to build. You are able to edit the tex file directly in github. Changes will be rendered and commited.
+1. Fork
+2. Edit `cv.tex`
+3. Commit changes
+4. Wait for the pipeline to commit the rendered document
