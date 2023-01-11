@@ -2,7 +2,7 @@
 layout: cv
 title: Max Fuchs's CV
 ---
-# Max Fuchs, MSc
+# Maximilian Fuchs, MSc
 
 Software engineer and computer science graduate.
 

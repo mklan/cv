@@ -72,6 +72,15 @@ I'm working with a lot of different languages. Some I might have used for only o
 - Dates of employment
 - Key responsibilities and accomplishments
 
+Software Engineer at __3M Health Information Systems__  
+    - Designed and implemented new functionalities for a medical natural language understanding platform in Java and XML
+    - Mentored junior team members and provided technical guidance to help them succeed in their roles
+    - Collaborated with cross-functional teams to understand business requirements and translate them into technical solutions
+    - Implemented MLOps workflows in AWS, including building, training, and deploying large models
+    - Acquired and prepared large medical datasets for use in training and evaluating deep learning models
+    - Accomplishments
+        -
+
 ## Education
 
 - Degree title
