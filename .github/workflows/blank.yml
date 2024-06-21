@@ -25,14 +25,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
-      - name: install ghostscript deps
-        run: sudo apt install -y libgs-dev
-
-      - name: install ghostscript
-        run: sudo wget http://http.us.debian.org/debian/pool/main/g/ghostscript/ghostscript_10.03.1~dfsg-1_amd64.deb -O ~/g.deb && sudo apt install -y ~/g.deb 
-      
       - name: Install deps
-        run: sudo apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra aptitude ghostscript
+        run: sudo apt-get install -y ghostscript texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra aptitude ghostscript
 
       - name: render cv.pdf
         run: pdflatex cv.tex
