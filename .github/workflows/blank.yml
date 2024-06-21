@@ -42,5 +42,17 @@ jobs:
           message: 'rendered new version [skip ci]'
           add: '*.pdf *.png'
 
+      - name: Copy cv files to output
+        run: mkdir output && cp cv.png output/cv.png && cp cv.pdf output/cv.pdf
 
+      - name: Push to User Github Page
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: "output"
+          destination-github-username: "mklan"
+          destination-repository-name: "mklan.github.io"
+          user-email: mklan@pm.me
+          target-branch: main
 
