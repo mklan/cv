@@ -25,6 +25,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
+      - name: install ghostscript deps
+        run: sudo wget http://http.us.debian.org/debian/pool/main/g/ghostscript/libgs10_10.03.1~dfsg-1_amd64.deb -O ~/libgs.deb && sudo apt install -y ~/libgs.deb
+
       - name: install ghostscript
         run: sudo wget http://http.us.debian.org/debian/pool/main/g/ghostscript/ghostscript_10.03.1~dfsg-1_amd64.deb -O ~/g.deb && sudo apt install -y ~/g.deb 
       
