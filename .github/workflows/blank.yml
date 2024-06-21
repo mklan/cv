@@ -23,7 +23,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       
       - name: Install deps
         run: sudo apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra ghostscript
@@ -53,6 +53,7 @@ jobs:
           source-directory: "output"
           destination-github-username: "mklan"
           destination-repository-name: "mklan.github.io"
-          user-email: mklan@pm.me
+          user-email: "deploy@bot.org"
           target-branch: main
+          target-directory: 'cv'
 
