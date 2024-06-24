@@ -1,9 +1,9 @@
-![Curriculum Vitae of Matthias Klan](https://github.com/mklan/cv/blob/master/cv.png?raw=true)
+![Curriculum Vitae of Matthias Klan](https://mklan.github.io/cv/cv.png)
 ---
 
 [![CI](https://github.com/mklan/cv/actions/workflows/blank.yml/badge.svg)](https://github.com/mklan/cv/actions/workflows/blank.yml)
 
-[Download PDF](https://github.com/mklan/cv/raw/master/cv.pdf)
+[Download PDF](https://mklan.github.io/cv/cv.pdf)
 
 You can fork this repo and use it as a framework for your personal CV.
 
